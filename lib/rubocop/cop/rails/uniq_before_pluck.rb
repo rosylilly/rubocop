@@ -68,7 +68,7 @@ module RuboCop
         private
 
         def mode
-          @mode ||= cop_config['EnforcedMode'].to_sym
+          @mode ||= cop_config['EnforcementMode'].to_sym
         end
 
         def dot_method_with_whitespace(method, node)
